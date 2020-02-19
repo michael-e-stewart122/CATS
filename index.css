@@ -1,0 +1,40 @@
+body {
+    background-color: powderblue;
+    background-image: url(https://image.shutterstock.com/image-vector/cute-cartoon-cat-vector-icons-600w-524942290.jpg)
+}
+
+#div1 {
+    background-color: lightgreen;
+    padding: 10px;
+    width: 600px;
+    height: 50px;
+}
+
+li {
+    border: 3px ridge black;
+    box-shadow: 3px 5px 20px #888888;
+    margin: .2rem;
+}
+
+#div2 {
+    background-color: pink;
+    margin: 2rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#headNavBar {
+    flex-direction: row;
+    background-color: gold;
+}
+
+#navMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    border: 3px outset green;
+    justify-content: flex-start;
+}
